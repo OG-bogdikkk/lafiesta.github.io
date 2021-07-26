@@ -1,0 +1,295 @@
+
+body{
+    font-family: Arial,Helvetica,sans-serif;
+    /* text-align: center; */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: 900;
+}
+
+
+
+.white-box {
+    padding: 2% 7% 17%;
+    background-color: #fff;
+}
+
+#title {
+    /* background-color: gray; */
+    text-align: left; 
+    background-size: 70%;  
+}
+
+
+.big-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #C4ACCB;
+    font-family: 'Playfair Display', serif;
+}
+
+.under-big-heading {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #000;
+    font-family: 'Playfair Display', serif;;
+}
+
+
+
+.container-fluid {
+    padding: 5% 15% 15%;
+}
+
+
+
+/* Navigation Bar  */
+
+.navbar {
+    padding-bottom: 3rem;
+}
+
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navbar-item {
+    padding: 0 1rem;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 300;
+}
+
+
+/* Download Buttons  */
+
+.download-button {
+    margin: 5% 7% 5% 0;
+}
+
+/* Title Image  */
+
+.title-image {
+    /* transform: rotate(25deg); */
+    /* right: 28%; */
+    position: absolute;
+    box-shadow: 20px 20px black;
+    width: 28.75rem;
+    height: 25rem;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.positioning {
+    position: relative;
+}
+
+
+/* About us */
+
+#About-us {
+    background-color: #F0F0F0;
+    padding: 2% 0% 0%;
+}
+
+
+.about-us-image {
+    position: absolute;
+    right: 0;
+    width: 460px;
+    height: 700px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.about-us-text {
+    padding: 7% 3% 7%;
+}
+
+.float-start {
+    min-width: 160px;
+}
+
+.instagram-link-about-us {
+    text-decoration: none;
+    color: gray;
+}
+
+.instagram-link-about-us:hover {
+    color: #C4ACCB;
+}
+/* Features  */
+
+#features {
+    padding: 10% 15%;
+    background-color: #fff;
+    position: relative; 
+}
+
+.feature {
+    font-size: 1.5rem;
+}
+
+.pill-color {
+    background-color: #C4ACCB;   
+}
+
+/* feedback */
+
+#feedback {
+    background-color: #F0F0F0;
+    padding: 7% 10% 5%;
+}
+
+.image-feedback {
+    border-radius: 50%;
+    max-width: 50%;
+}
+
+
+/* portfolio */
+
+#portfolio {
+    padding: 7% 10%;
+    background-color: #C4ACCB;
+    text-align: center;
+    border-radius: 10% / 50%; 
+}
+
+.portfolio-box {
+    background-color:#F0F0F0;
+}
+
+.carousel-item {
+    max-width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.card-img-top {
+    width: 35%;
+    margin: auto;
+    border-radius: 20%;
+}
+
+.card {
+    padding: 5%;
+    border-radius: 10% / 50%;
+}
+
+
+
+
+/* friendly */
+
+#friendly {
+    padding: 5%;
+}
+
+
+
+.freindly-box {
+    padding: 19%;
+    background-color: #F0F0F0;
+    text-align: center;
+}
+
+
+/* Pricing section */
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-heading {
+    font-size: 2rem;
+    line-height: 1.5;   
+}
+
+.column-pricing {
+    padding: 2% 2%;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+@media (max-width:979px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* Call to Action */
+
+#cta {
+    background-color: #C4ACCB;
+    padding: 5% 15%;
+}
+
+.cta-box {
+    padding: 5%;
+    background-color: #F0F0F0;
+    text-align: center;
+}
+
+
+/* .contact-heading {
+    color: #fff;
+} */
+
+
+
+/* Footer  */
+
+#footer {
+    padding: 3% 7%;
+    background-color: #fff;
+}
+
+.footer-icons {
+    margin: 0 auto;
+    padding: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.footer-icon {
+    margin: 2% 2%;
+
+}
+
+.footer-paragraph {
+    color: grey;
+    text-align: center;
+}
+
+@media (max-width: 620px) {
+    .title-image {
+        position: static;
+        margin: auto;
+        box-shadow: 5px;
+        display: inline-block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 19rem;
+    }
+}
